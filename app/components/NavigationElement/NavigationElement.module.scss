@@ -1,0 +1,18 @@
+.option {
+  color: #fff;
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  font-size: 1.2em;
+  border-bottom: 1px solid #3d3d3d;
+}
+
+@media (min-width: 624px) {
+  .option {
+    width: unset;
+    font-size: 15px;
+    flex-grow: 1;
+    border-bottom: none;
+  }
+}

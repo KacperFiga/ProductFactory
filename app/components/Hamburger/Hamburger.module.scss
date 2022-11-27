@@ -1,0 +1,25 @@
+@media (min-width: 624px) {
+  .svg {
+    display: none;
+  }
+}
+
+.svg {
+  width: 64px;
+}
+
+.crossLeft {
+  transform: rotate(45deg) translate(15px, -10px);
+}
+
+.crossRight {
+  transform: rotate(-45deg) translate(-29px, 13px);
+}
+
+.hide {
+  opacity: 0;
+}
+
+.animSettings {
+  transition: all 0.4s ease-in-out;
+}

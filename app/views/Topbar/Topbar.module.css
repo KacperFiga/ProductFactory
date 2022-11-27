@@ -1,0 +1,17 @@
+.topbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  background-color: #000;
+  width: 100%;
+  height: 70px;
+}
+
+@media (min-width: 624px) {
+  .topbar {
+    display: flex;
+    padding: 20px 10vw;
+    height: 85px;
+  }
+}/*# sourceMappingURL=Topbar.module.css.map */

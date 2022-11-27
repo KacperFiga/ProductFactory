@@ -1,0 +1,10 @@
+.svg {
+  width: 100px;
+  margin-left: calc(100vw - 190px);
+}
+
+@media (min-width: 624px) {
+  .svg {
+    margin-left: 0;
+  }
+}/*# sourceMappingURL=PFicon.module.css.map */
