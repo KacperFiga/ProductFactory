@@ -1,1 +1,1 @@
-{"version":3,"sources":["AboutCourse.module.scss","AboutCourse.module.css"],"names":[],"mappings":"AACE;EACE,cAAA;EACA,gBAAA;ACAJ;;ADIA;EAEI;IACE,cAAA;IACA,gBAAA;ECFJ;AACF","file":"AboutCourse.module.css"}
+{"version":3,"sources":["AboutCourse.module.scss","AboutCourse.module.css"],"names":[],"mappings":"AACE;EACE,cAAA;EACA,gBAAA;ACAJ;;ADIA;EACE;IACE,gBAAA;ECDF;EDEE;IACE,cAAA;IACA,gBAAA;ECAJ;AACF","file":"AboutCourse.module.css"}

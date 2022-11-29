@@ -4,15 +4,15 @@ import { ProductFactoryImage } from "../../components/ProductFactoryImage/Produc
 import { ProductFactoryContent } from "../../components/ProductFactoryContent/ProductFactoryContent";
 import { SocialIcons } from "../../components/SocialIcons/SocialIcons";
 
-import styles from "./ProductFactory.module.css";
+import { Container } from "../../components/Container/Container";
 
 export const ProductFactory = () => {
   return (
-    <section className={styles.container}>
+    <Container>
       <ProductFactoryImage />
       <ProductFactoryHeader />
       <ProductFactoryContent />
       <SocialIcons />
-    </section>
+    </Container>
   );
 };

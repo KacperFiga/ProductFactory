@@ -4,6 +4,9 @@
 }
 
 @media (min-width: 624px) {
+  .about {
+    margin-top: 60px;
+  }
   .about p {
     margin: 15px 0;
     font-weight: 600;
