@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  width: 50%;
+  margin: 30px auto;
+}
+
+@media (min-width: 624px) {
+  .container {
+    position: absolute;
+    top: 0;
+    left: 90%;
+    flex-direction: column;
+    width: -webkit-min-content;
+    width: -moz-min-content;
+    width: min-content;
+    height: 35%;
+  }
+}/*# sourceMappingURL=SocialIcons.module.css.map */

@@ -1,7 +1,7 @@
 import Head from "next/head";
-import { Topbar } from "../views/Topbar/Topbar";
-import { AboutCourse } from "../views/AboutCourse/AboutCourse";
-import { AboutUs } from "../views/AboutUs/AboutUs";
+import { Header } from "../views/Header/Header";
+import { Hero } from "../views/Hero/Hero";
+import { ProductFactory } from "../views/ProductFactory/ProductFactory";
 import { CourseFee } from "../views/CourseFee/CourseFee";
 import { Experience } from "../views/Experience/Experience";
 import { Sessions } from "../views/Sessions/Sessions";
@@ -22,10 +22,10 @@ const Home = () => {
         <meta name="description" content="Product Factory page" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Topbar />
+      <Header />
       <main className={styles.main}>
-        <AboutCourse />
-        <AboutUs />
+        <Hero />
+        <ProductFactory />
         <Experience />
         <Sessions />
         <Masters />

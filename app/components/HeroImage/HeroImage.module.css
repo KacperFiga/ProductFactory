@@ -1,0 +1,18 @@
+.image {
+  margin-top: 20px;
+  width: 100%;
+}
+
+@media (min-width: 624px) {
+  .image {
+    width: 50%;
+    transform: none;
+    background-position: 9% 27%;
+    background-size: 39%;
+  }
+}
+@media (min-width: 624px) {
+  .image {
+    margin-top: 0;
+  }
+}/*# sourceMappingURL=HeroImage.module.css.map */

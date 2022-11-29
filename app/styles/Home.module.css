@@ -4,7 +4,6 @@
 
 .main {
   position: relative;
-  top: 110px;
   left: 0;
 }
 
@@ -13,10 +12,6 @@
 .main {
     width: auto;
     max-width: 1460px;
-    margin: unset;
     margin: 0 5vw;
-  }
-  .main {
-    top: 150px;
   }
 }/*# sourceMappingURL=Home.module.css.map */

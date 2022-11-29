@@ -1,4 +1,4 @@
-.topbar {
+.header {
   position: fixed;
   left: 0;
   top: 0;
@@ -9,7 +9,7 @@
 }
 
 @media (min-width: 624px) {
-  .topbar {
+  .header {
     display: flex;
     padding: 20px 10vw;
     height: 85px;

@@ -1,0 +1,23 @@
+.header__h1 {
+  font-size: 1.5em;
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+.header__h3 {
+  margin-bottom: 50px;
+  font-weight: 400;
+  opacity: 0.6;
+}
+
+@media (min-width: 624px) {
+  .header {
+    margin-top: 18%;
+    height: 25%;
+  }
+  .header__h1 {
+    font-size: 2em;
+  }
+  .header__h3 {
+    font-size: 1.6em;
+  }
+}/*# sourceMappingURL=HeroHeader.module.css.map */

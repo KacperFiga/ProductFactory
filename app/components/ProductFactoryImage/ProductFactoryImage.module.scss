@@ -1,0 +1,22 @@
+.image {
+  transform: translate(0%, -60%);
+  width: 50%;
+  height: 50%;
+}
+
+@media (min-width: 624px) {
+  .image {
+    transform: translate(-5%, -70%);
+    position: relative;
+    &::after {
+      content: url("../../public/circle.svg");
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 35px;
+      height: 35px;
+      background-color: red;
+      z-index: 2;
+    }
+  }
+}

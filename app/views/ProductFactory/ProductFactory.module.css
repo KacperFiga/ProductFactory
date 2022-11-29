@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  background-color: #fff;
+  margin: 0 5vw;
+  border-radius: 16px;
+  padding: 5%;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 624px) {
+  .container {
+    position: relative;
+    top: 0;
+    left: 0;
+    padding-bottom: 0;
+    border-radius: 30px;
+    margin-top: 150px;
+    max-width: 1460px;
+    width: 75vw;
+    height: 55vh;
+  }
+}/*# sourceMappingURL=ProductFactory.module.css.map */

@@ -1,0 +1,19 @@
+.about {
+  line-height: 150%;
+  font-size: 1em;
+  &__desktop_break {
+    display: none;
+  }
+}
+@media (min-width: 624px) {
+  .about {
+    transform: translateY(-35%);
+    line-height: 300%;
+    font-size: 0.8em;
+    padding-left: 2%;
+    font-weight: 600;
+    &__desktop_break {
+      display: block;
+    }
+  }
+}
