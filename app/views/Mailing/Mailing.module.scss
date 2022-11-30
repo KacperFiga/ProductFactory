@@ -1,0 +1,13 @@
+.flexContainer {
+  position: relative;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (min-width: 624px) {
+  .flexContainer {
+    padding-bottom: 50px;
+  }
+}

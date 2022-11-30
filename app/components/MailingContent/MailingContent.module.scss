@@ -1,0 +1,10 @@
+.mailing__container {
+  color: #fff;
+  width: 100%;
+}
+
+@media (min-width: 624px) {
+  .mailing__container {
+    width: 47%;
+  }
+}

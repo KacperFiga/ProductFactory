@@ -1,0 +1,22 @@
+.success {
+  position: relative;
+  padding-left: 30px;
+  font-weight: 200;
+  &::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 27px;
+    height: 27px;
+    background-image: url("../../public/success.svg");
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media (min-width: 624px) {
+  .success {
+    transform: translateX(47px);
+    width: max-content;
+  }
+}

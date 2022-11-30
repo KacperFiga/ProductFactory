@@ -5,6 +5,7 @@
 @media (min-width: 624px) {
   .image {
     display: block;
-    width: 190%;
+    width: 180%;
+    margin-top: 10px;
   }
 }/*# sourceMappingURL=PFlogoExp.module.css.map */

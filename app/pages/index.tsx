@@ -3,9 +3,7 @@ import { Header } from "../views/Header/Header";
 import { Hero } from "../views/Hero/Hero";
 import { ProductFactory } from "../views/ProductFactory/ProductFactory";
 import { Experience } from "../views/Experience/Experience";
-import { Sessions } from "../views/Sessions/Sessions";
-import { Projects } from "../views/Projects/Projects";
-import { Schedule } from "../views/Schedule/Schedule";
+import { Mailing } from "../views/Mailing/Mailing";
 
 import styles from "../styles/Home.module.css";
 
@@ -22,9 +20,7 @@ const Home = () => {
         <Hero />
         <ProductFactory />
         <Experience />
-        <Sessions />
-        <Projects />
-        <Schedule />
+        <Mailing />
       </main>
     </section>
   );

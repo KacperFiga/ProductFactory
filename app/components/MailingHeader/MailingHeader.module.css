@@ -1,0 +1,12 @@
+.mailing__header {
+  text-align: center;
+  width: 100%;
+  padding: 40px;
+}
+
+@media (min-width: 624px) {
+  .mailing__header {
+    text-align: left;
+    font-size: 1.6em;
+  }
+}/*# sourceMappingURL=MailingHeader.module.css.map */
